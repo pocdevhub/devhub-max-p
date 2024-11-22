@@ -6,19 +6,19 @@ data:
   app-config-rhdh.yaml: |
     app:
       title: Red Hat Developer Hub
-      baseUrl: <<URL>>
+      baseUrl: https://redhat-developer-hub-test-devhub-tutorial.apps.k8s.dev.local
     integrations:
       github:
         - host: github.com
-          token: <<TOKEN-GITHUB-REPO>>
+          token: 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
     auth:
       allowGuestAccess: true
       environment: development
       providers:
         github:
           development:
-            clientId: <<CLIENT-ID>>
-            clientSecret: <<CLIENT-SECRET>>
+            clientId: Iv23li29PAaIyHX9oEk5
+            clientSecret: 8419063b592e931ec32b4d056605be9950dd9109
     enabled:
       github: true
     kubernetes:
